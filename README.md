@@ -1,16 +1,28 @@
-### Hi there 👋
+```py
+from Github import GithubReadme
 
-<!--
-**Fosnos/Fosnos** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Void:
+    def __init__(self):
+        self.name = "Fosnos"
+        self.age = "15"
+        self.location = "Pluto"
+        self.work = "Developer"
+        self.system = "Windows 10, x64"
 
-Here are some ideas to get you started:
+    def skills(self):
+        self.languages = {
+            "main": ["Python", "Java", "Node.js", "C#", "HTML/CSS/JS"],
+            "learning": ["golang", "C++"]
+        }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        self.works = ['Token Generator', 'hCaptcha Bypass', 'Chat Botter', 'Shill Tool', 'Token Manager', 'etc...']
+    
+    def social_media(self):
+        self.discord = "Fosnos#5529"
+        self.telegram = "tcpskid"
+        self.instagram = "sammbtw"
+        self.onlyfans = None
+
+
+if __name__ == "__main__":
+    readme = GithubReadme.create(Fosnos)```
