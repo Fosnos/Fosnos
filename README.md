@@ -19,7 +19,7 @@ class Void:
     
     def social_media(self):
         self.discord = "Fosnos#5529"
-        self.telegram = "tcpskid"
+        self.telegram = "fosnosus"
         self.instagram = "sammbtw"
         self.onlyfans = None
 
