@@ -1,5 +1,5 @@
 ```py
-from Github import GithubReadme
+From Github import GithubReadme
 
 class Void:
     def __init__(self):
@@ -25,4 +25,4 @@ class Void:
 
 
 if __name__ == "__main__":
-    readme = GithubReadme.create(Fosnos)```
+    readme = GithubReadme.create(Fosnos)
